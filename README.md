@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ReviewIQ — Review Intelligence Platform
 
-## Getting Started
+ReviewIQ is an AI-powered review management and intelligence platform designed for e-commerce brands. It centralizes customer feedback from multiple platforms, provides deep sentiment analysis, and automates review responses with AI.
 
-First, run the development server:
+**Live Demo**: [seller-grid-reviewiq.vercel.app](https://seller-grid-reviewiq.vercel.app)
+
+---
+
+## 🚀 Key Features
+
+### 📊 Intelligence Dashboard
+- **Real-time Metrics**: Track Average Rating, Negative Review %, Active Alerts, and Impacted Products at a glance.
+- **Sentiment Trends**: Dynamic visualization of customer sentiment over time.
+- **Root Cause Analysis**: Automatic categorization of feedback into actionable areas like Delivery, Product Defect, Pricing, and more.
+
+### 📥 AI-Powered Inbox
+- **Unified Feed**: Manage reviews from Amazon, Flipkart, Shopify, and Instagram in one place.
+- **Smart Replies**: Generate AI-optimized responses tailored to the review sentiment.
+- **Tone Control**: Choose from Professional, Friendly, or Apologetic tones for automated drafts.
+
+### 🧪 Advanced Analytics
+- **Product Drilldown**: Deep dive into specific product performance and recurring issues.
+- **Category Insights**: Identify which business areas are driving customer dissatisfaction.
+- **Alert System**: Configurable thresholds for negative review spikes and volume surges.
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/            # Next.js App Router (Pages, Layouts, API Routes)
+├── components/     # Modular React components
+│   ├── dashboard/  # Dashboard-specific features (Charts, Alerts)
+│   ├── inbox/      # Review management components
+│   ├── shared/     # Global components (Sidebar, TopBar)
+│   └── ui/         # Base UI components (Buttons, Cards, Badges)
+├── hooks/          # Custom React hooks for data and logic
+├── lib/            # Utilities (Sentiment analysis, Formatters)
+├── store/          # Global state management (Zustand)
+├── types/          # TypeScript definitions
+└── data/           # Mock data and constants
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Font**: [Inter](https://fonts.google.com/specimen/Inter)
+
+---
+
+## 🛠️ Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📈 Production Build
 
-## Learn More
+To create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*Developed by Ranveer Raj*
