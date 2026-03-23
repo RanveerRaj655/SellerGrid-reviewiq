@@ -17,7 +17,7 @@ export default function DashboardPage() {
               Dashboard Overview
               <LayoutDashboard className="text-emerald-500 w-5 h-5" />
             </h1>
-            <p className="text-sm text-muted-foreground mt-1">Monitor your brand's performance and recent activities.</p>
+            <p className="text-sm text-muted-foreground mt-1">Monitor your brand performance and recent activities.</p>
           </div>
         </div>
 

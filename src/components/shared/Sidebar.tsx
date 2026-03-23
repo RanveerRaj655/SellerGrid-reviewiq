@@ -59,10 +59,10 @@ export function Sidebar() {
 
       <div className="px-5 py-6 mt-auto border-t border-neutral-900">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center text-black text-xs font-bold shrink-0 shadow-lg shadow-emerald-500/10 border border-white/10">RK</div>
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center text-black text-xs font-bold shrink-0 shadow-lg shadow-emerald-500/10 border border-white/10">RR</div>
           {!sidebarCollapsed && (
             <div className="min-w-0">
-              <p className="text-sm font-semibold text-white truncate leading-none mb-1">Rahul Kumar</p>
+              <p className="text-sm font-semibold text-white truncate leading-none mb-1">ranveer raj</p>
               <p className="text-[10px] uppercase font-bold text-emerald-500 tracking-wider">Brand Owner</p>
             </div>
           )}
